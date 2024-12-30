@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+    <div class="main">
+        <div class="left">
+            <h1>Result</h1>
+            <h2 id="percentage"></h2>
+            <h2 id="grade"></h2>
+            <h2 id="total"></h2>
+            <br><br>
+            <h1 id="POF"></h1>
+        </div>
+        <div class="right">
+            <h1>Enter your marks here</h1>
+            <form>
+                <label>Hindi</label>
+                <input type="tel" id="hindi" placeholder="enter marks of hindi">
+                <br><br>
+                <label>Telugu</label>
+                <input type="tel" id="telugu" placeholder="enter marks of telugu">
+                <br><br>
+                <label>English</label>
+                <input type="tel" id="english" placeholder="enter marks of english">
+                <br><br>
+                <label>Maths</label>
+                <input type="tel" id="maths" placeholder="enter marks of maths">
+                <br><br>
+                <label>Science</label>
+                <input type="tel" id="science" placeholder="enter marks of science">
+                <br><br>
+                <label>Social</label>
+                <input type="tel" id="social" placeholder="enter marks of social">
+                <br><br><br>
+            </form>
+            <button onclick="calgrade()">Show result</button>
+        </div>
+    </div>
+    </center>
+    <script src="script.js"></script>
+</body>
+</html>
